@@ -1,0 +1,19 @@
+Pkghunt by Harvey Hunt
+
+This is my A Level computing project written in Python 3.
+The aim of this project is to create a package manager for Github source code.
+The user can download and install software directly from Github. The software currently
+only supports C, C++ and Python but more languages may be added in the future.
+
+Installation:
+The installation process is very simple. The user must ensure that Python 3 is already installed,
+as well as xterm, QT4 and the PyQT4 bindings.
+
+The user must navigate to the directory this file is contained in and execute the following command:
+
+arch@arch-desktop:~$ sudo python3 setup.py install
+
+The application will then install itself, once the dependencies have been correctly downloaded.
+The application can then be launched from the command line, as such:
+
+arch@arch-desktop:~$ pkghunt.py
